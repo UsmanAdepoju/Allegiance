@@ -1,0 +1,214 @@
+body {
+    font-family: 'Poppins', sans-serif!important;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+html {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+header {
+    height: 519px;
+}
+
+.carousel-item {
+    height: 83vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.nav-link {
+    color: black;
+}
+
+.contact {
+    border-collapse: separate;
+    border-radius: 20px!important;
+    background-color: #0099fc;
+    color: white;
+    width: 203px;
+    height: 52px;
+    font-weight: bold;
+}
+
+.header-text h1 {
+    font-weight: bold !important;
+}
+
+.secure {
+    color: #0099fc;
+}
+
+.row {
+    padding-bottom: 8px;
+}
+
+#off {
+    color: #0099fc;
+}
+
+.offer {
+    background-color: RGBA(0, 153, 252, 0.11);
+    border-bottom-right-radius: 100px;
+    height: auto;
+    padding-top: 150px;
+}
+
+#offer {
+    padding-bottom: 20px;
+}
+
+.color {
+    background-color: RGBA(33, 32, 44, 0.85);
+    color: white;
+    padding-top: 50px;
+}
+
+.enquiry {
+    border-collapse: separate;
+    border-radius: 20px!important;
+    background-color: #0099fc;
+    color: white;
+    width: 150px;
+    height: 52px;
+    font-weight: bold;
+}
+
+.client {
+    height: auto;
+}
+
+.launched {
+    background-color: RGBA(196, 196, 196, 0.11);
+    height: auto;
+}
+
+.launched h2 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+address.row {
+    height: 20%;
+}
+
+.icon {
+    background: url('assets/images/coding\ 1.svg');
+    height: 50px;
+    width: 50px;
+    position: relative;
+    display: block;
+    right: -15px;
+    /* Other styles here */
+}
+
+.icon2 {
+    background: url('assets/images/lock\ 1.svg');
+    height: 50px;
+    width: 50px;
+    position: relative;
+    display: block;
+    right: -15px;
+    /* Other styles here */
+}
+
+.icon3 {
+    background: url('assets/images/gift-card\ 1.svg');
+    height: 50px;
+    width: 50px;
+    position: relative;
+    display: block;
+    right: -15px;
+    /* Other styles here */
+}
+
+.icon4 {
+    background: url('assets/images/provider\ 1.svg');
+    height: 50px;
+    width: 50px;
+    position: relative;
+    display: block;
+    right: -15px;
+    /* Other styles here */
+}
+
+.icon5 {
+    background: url('assets/images/analytics\ 1.svg');
+    height: 50px;
+    width: 50px;
+    position: relative;
+    display: block;
+    right: -15px;
+    /* Other styles here */
+}
+
+.icon6 {
+    background: url('assets/images/education\ \(1\)\ 1.svg');
+    height: 50px;
+    width: 50px;
+    position: relative;
+    display: block;
+    right: -15px;
+    /* Other styles here */
+}
+
+#card-title {
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+
+#card-title6 {
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+
+.contact-us {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.footer-headers {
+    color: #009FFC;
+    font-weight: 600;
+}
+
+#move {
+    padding-top: 50px;
+    font-weight: 700;
+}
+
+.text {
+    display: block;
+    display: -webkit-box;
+    max-width: 800px;
+    height: auto;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    padding-bottom: 80px;
+}
+
+.carousel-item {
+    -webkit-backdrop-filter: brightness(50%);
+}

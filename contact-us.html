@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+
+
+    <title>Contact-Us</title>
+</head>
+</head>
+
+<body>
+    <!-- NAVBAR-->
+
+
+    <nav class="navbar navbar-light navbar-expand-lg py-3 shadow-sm" style="background-color: RGBA(0,159,252,0.59);">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">
+                <!-- Logo Image -->
+                <img src="assets/icons/logo.png" height="65" width="138">
+            </a>
+            <!-- Button on header -->
+            <button style="color: black;" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"><span class="navbar-toggler-icon"></span></button>
+            <div id="navbarSupportedContent" class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a href="index.html" class="nav-link">HOME<span class="sr-only">(current)</span></a></li>
+                    <li class="nav-item"><a href="about-us.html" class="nav-link">ABOUT US</a></li>
+                    <li class="nav-item"><a href="Products.html" class="nav-link">OUR SERVICES</a></li>
+                    <li class="nav-item active"><a href="contact-us.html" class="nav-link">CONTACT US</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End Of NavBar -->
+
+
+    <!-- Maps and Forms -->
+
+    <main style="padding-top: 4em;" class="container">
+        <div class="row">
+            <!-- Map -->
+            <div class="col">
+                <figure>
+                    <img src="assets/icons/MapGroup.png" alt="">
+                </figure>
+            </div>
+
+            <!-- Form -->
+            <div class="col">
+                <h3>Contact us</h3>
+                <address class="row">
+                    <p class="col">
+                        Address<br>
+                        <i>3A, Haven of Peace, Block 128B,<br> Plot 2, Remi Olowude Way,<br>
+                        (Ocean Side) Lekki Phase 1,<br>
+                        Lagos State, Nigeria</i>
+                    </p> 
+                    <p class="col">
+                        Contact<br>
+                        <i>+234 708 476 5798,<br>
+                        +234 703 824 5680<br>
+                        <a mailto="hello@softmetrics.com">hello@softmetrics.com</a></i>
+                    </p>
+                </address>
+                <form class="form">
+                    <h5>Have a question?</h5>
+                    <label for="name">Name</label><br>
+                    <input type="text" id="name"><br>
+                    <label for="name">Email</label><br>
+                    <input type="email" id="email"><br>
+                    <label for="name">Phone</label><br>
+                    <input type="tel" id="phone"><br>
+                    <label for="message">Message</label><br>
+                    <textarea rows="5" cols="50" name="message"></textarea>
+                    <button class="enquiry">Send</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+
+
+    <!-- FOOTER -->
+
+    <div id="footer"></div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script>
+        $(function() {
+            $('#footer').load('footer.html');
+        });
+    </script>
+    <!-- END OF FOOTER -->
+</body>
+
+</html>
