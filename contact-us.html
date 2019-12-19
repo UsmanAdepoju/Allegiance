@@ -25,7 +25,7 @@
     <!-- NAVBAR-->
 
 
-    <nav class="navbar navbar-light navbar-expand-lg py-3 shadow-sm">
+    <nav class="navbar navbar-light navbar-expand-lg py-3 shadow-sm" style="background-color: RGBA(0, 153, 252, 0.11);">
         <div class="container">
             <a href="index.html" class="navbar-brand">
                 <!-- Logo Image -->
@@ -66,42 +66,60 @@
 
     <!-- Maps and Forms -->
 
-    <main style="padding-top: 4em;" class="container">
+    <main style="padding-top: 10em;" class="container">
         <div class="row">
             <!-- Map -->
             <div class="col">
-                <figure>
-                    <img src="assets/icons/MapGroup.png" alt="">
-                </figure>
+                <div class="mapouter">
+                    <div class="gmap_canvas"><iframe width="641" height="517" id="gmap_canvas" src="https://maps.google.com/maps?q=SoftMetrics%203A%2C%20Haven%20of%20Peace%20Block%20128B%2C%20Plot%20Way%2C%20(Ocean%20Side%2C%202%20Remi%20Olowude%20St%2C%20Lekki%20Phase%201%2C%20Lagos%20&t=&z=11&ie=UTF8&iwloc=&output=embed"
+                            frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                        <a href="https://www.softmetrics.tech"></a>
+                    </div>
+                    <style>
+                        .mapouter {
+                            position: relative;
+                            text-align: right;
+                            height: 641px;
+                            width: 517px;
+                        }
+                        
+                        .gmap_canvas {
+                            overflow: hidden;
+                            background: none!important;
+                            height: 641px;
+                            width: 517px;
+                        }
+                    </style>
+                </div>
             </div>
 
             <!-- Form -->
             <div class="col">
-                <h3>Contact us</h3>
+                <h3>Contact <span id="off">us</span></h3>
                 <address class="row">
                     <p class="col">
-                        Address<br>
+                        <span style="font-weight:bold;">Address</span><br>
                         <i>3A, Haven of Peace, Block 128B,<br> Plot 2, Remi Olowude Way,<br>
                         (Ocean Side) Lekki Phase 1,<br>
                         Lagos State, Nigeria</i>
                     </p> 
                     <p class="col">
-                        Contact<br>
+                            <span style="font-weight:bold;">Contact</span><br>
                         <i>+234 708 476 5798,<br>
                         +234 703 824 5680<br>
                         <a mailto="hello@softmetrics.com">hello@softmetrics.com</a></i>
                     </p>
                 </address>
-                <form class="form">
+                <form style="padding-top: 20px;" class="form">
                     <h5>Have a question?</h5>
                     <label for="name">Name</label><br>
-                    <input type="text" id="name"><br>
+                    <input type="text" id="name" required><br>
                     <label for="name">Email</label><br>
-                    <input type="email" id="email"><br>
+                    <input type="email" id="email" required><br>
                     <label for="name">Phone</label><br>
-                    <input type="tel" id="phone"><br>
+                    <input type="tel" id="phone" required><br>
                     <label for="message">Message</label><br>
-                    <textarea rows="5" cols="50" name="message"></textarea>
+                    <textarea rows="5" cols="50" name="message" required></textarea>
                     <button class="enquiry">Send</button>
                 </form>
             </div>

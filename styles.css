@@ -1,5 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif!important;
+    font-size: larger !important;
     width: 100%;
     height: 100%;
     margin: 0;
@@ -74,12 +75,8 @@ header {
 .offer {
     background-color: RGBA(0, 153, 252, 0.11);
     border-bottom-right-radius: 100px;
-    height: auto;
-    padding-top: 150px;
-}
-
-#offer {
-    padding-bottom: 20px;
+    padding-top: 280px;
+    padding-bottom: 40px;
 }
 
 .color {
@@ -218,6 +215,57 @@ address.row {
 .carousel-item {
     -webkit-backdrop-filter: brightness(50%);
 }
+
+.cost {
+    background: url('assets/icons/profit.svg');
+    display: block;
+    right: -15px;
+}
+
+.risk {
+    background: url('assets/icons/risks.svg');
+    display: block;
+    right: -15px;
+}
+
+.security {
+    background: url('assets/icons/security.svg');
+    display: block;
+    right: -15px;
+}
+
+.solution {
+    padding-bottom: 40px;
+    padding-top: 40px;
+    background-color: RGBA(0, 153, 252, 0.11);
+    text-align: center;
+}
+
+#security-basics {
+    height: 80px;
+    width: 80px;
+}
+
+.basics {
+    text-align: center;
+}
+
+
+/* 
+.eachfeature-wrap {
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -ms-flex-preferred-size: 50%;
+    flex-basis: 50%;
+    text-align: center;
+    padding: 0 8% 0 0;
+    margin-top: 65px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+}
+ */
 
 
 /* .backups {
