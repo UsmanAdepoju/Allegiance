@@ -77,6 +77,7 @@ header {
     border-bottom-right-radius: 100px;
     padding-top: 280px;
     padding-bottom: 40px;
+    height: auto;
 }
 
 .color {
